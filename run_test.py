@@ -1,9 +1,9 @@
-from unittest import TestCase
+import unittest
 
 from fraction import Fraction
 
 
-class TestFraction(TestCase):
+class TestFraction(unittest.TestCase):
 
     def test_str(self):
         val = Fraction(1, 2)
